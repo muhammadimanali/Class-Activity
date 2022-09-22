@@ -1,6 +1,8 @@
 // Write a function to print all odd numbers till n
 
-const n = 10
+const prompt = require("prompt-sync")();
+
+let n = prompt("Enter Number, n: ")
 
 function printEven() {
     for (let i=0; i<n; i++) {
